@@ -1,0 +1,22 @@
+8. git show: git show will display the detailed information about the commit.
+   command: git show commit_id
+
+[root@ip-172-31-8-220 devops-repo]# git show 22f27c87b449ba6cf9404c5c101c39af3566bf28
+commit 22f27c87b449ba6cf9404c5c101c39af3566bf28 (HEAD -> master)
+Author: GoudSagar <goud.sagar.t@gmail.com>
+Date:   Tue Mar 4 02:04:21 2025 +0000
+
+    Adding file.txt
+
+diff --git a/file.txt b/file.txt
+new file mode 100644
+index 0000000..c944814
+--- /dev/null
++++ b/file.txt
+@@ -0,0 +1,4 @@
++GIT: Global Interaction tool
++
++Git is an source code management tool where we store all important files, directories, images, logos etc which uses distributed version control system(VCS) mechanism which provides proper tracking and also benefit of storage cost optimization.
++
+[root@ip-172-31-8-220 devops-repo]#
+---------------------------------------////////////////==========================////////////////////
