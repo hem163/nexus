@@ -1,0 +1,35 @@
+GIT - Command line Interface tool
+GITHUB - Graphical user Interface
+
+GIT: Global Interaction tool
+
+Git is an source code management tool where we store all important files, directories, images, logos etc which uses distributed version control system(VCS) mechanism which provides proper tracking and also benefit of storage cost optimization.
+
+---------------------------------------------
+Why Git ?
+---------------------------------------------
+
+ * what is VCS(Version Control system) ?
+      VCS - Version control system is an Mechanism which provides an unique identification for managing the data inside in the files via commit_ids which is an hexa decimal code - xbccnqwn9r13nin22e021ee22nffn in the form of 125/256 bytes using an algorithm called as SHA(secure hashing algorithm).
+
+----------------------------------------------
+ * why VCS(Version Control system) ?
+----------------------------------------------
+       1. Tracking: who/when/what modified - proper tracking
+                     * Every modification is captured - capture(email and username)
+                     * Proper date and time - timestamp of every change
+                     * what is modified - added/deleted/updated - each and every line/word/sentence
+
+      2. Storage cost optimization: Avoid the duplication via VCS Mechanism
+ 
+      Eg: Developer - working on Feature for website
+      
+      DAY-1: login.java(10 lines) -> 1 GB data -> Build and release -> working file
+                * Record the changes via commit_id - kncwqdqdqdej02je2100202e22e2f
+       
+
+      DAY-2: login.java(50 lines) -> 5 GB -> Build and release -> working file
+                * Record the changes via commit_id - lacoacokcwodkwq0d32d320330j33
+
+
+-------------------------------------------/////////////////---------------///////////////////------------------
