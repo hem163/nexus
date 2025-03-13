@@ -1,0 +1,29 @@
+7. git log: git log will display all the commits.
+   command: git log            // list all the commits
+            git log -n1        // list the last one commit
+            git log -n2        // list the last 2 commits
+            git log --oneline  // list short commit_id and messages
+
+[root@ip-172-31-8-220 devops-repo]# git log
+commit 22f27c87b449ba6cf9404c5c101c39af3566bf28 (HEAD -> master)
+Author: GoudSagar <goud.sagar.t@gmail.com>
+Date:   Tue Mar 4 02:04:21 2025 +0000
+
+    Adding file.txt
+[root@ip-172-31-8-220 devops-repo]# git log -n1
+commit 22f27c87b449ba6cf9404c5c101c39af3566bf28 (HEAD -> master)
+Author: GoudSagar <goud.sagar.t@gmail.com>
+Date:   Tue Mar 4 02:04:21 2025 +0000
+
+    Adding file.txt
+[root@ip-172-31-8-220 devops-repo]# git log -n2
+commit 22f27c87b449ba6cf9404c5c101c39af3566bf28 (HEAD -> master)
+Author: GoudSagar <goud.sagar.t@gmail.com>
+Date:   Tue Mar 4 02:04:21 2025 +0000
+
+    Adding file.txt
+[root@ip-172-31-8-220 devops-repo]#
+[root@ip-172-31-8-220 devops-repo]# git log --oneline
+22f27c8 (HEAD -> master) Adding file.txt
+[root@ip-172-31-8-220 devops-repo]#
+-------------------------------------//////////////////===================================//////////////////////////////==========
