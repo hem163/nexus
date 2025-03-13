@@ -1,0 +1,41 @@
+Types of Version control system:
+=============================================================================================================================
+1. Centralized version control system:
+
+a. No Parallel development
+b. High chances of data loss 
+c. Connect online - changes must be made online - internet connection
+d. License cost 
+
+eg: clearcase and SVN(sub version)
+
+
+2. Distributed version control system
+
+a. parallel development
+b. no chances of data loss
+c. less connection to online - most of the time we work in local system
+d. Open source - free trail software
+                          - subscription in case of support required.
+
+eg: Git, Github, bitbucket
+============================================================================================================================
+Architecture of Git:
+============================================================================================================================
+
+
+
+============================================================================================================================
+Installation of Git:
+============================================================================================================================
+Linux Machine:
+
+sudo su
+yum install git -y
+
+
+Windows/Mac Laptop:
+ * Git Bash
+
+
+=============================================/////////////////////========================///////////////////////=========================//////////////
