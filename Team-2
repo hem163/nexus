@@ -1,0 +1,25 @@
+  * Traditional system: Linux/Window
+-------------------------------------------
+    1. Tracking: who/when/what modified - no proper tracking
+                     * last modified time and date of last user
+                     * last modified user name
+                     * what is modified - added/deleted/updated - no info ?
+
+    2. Storage cost optimization: Avoid the duplication.
+ 
+      Eg: Developer - working on Feature for website
+      
+      DAY-1: login.java -> 1 GB data -> Build and release -> working file
+
+               Backup_login.java_01_03_2025             
+
+      DAY-2: login.java -> 1 GB + 5 GB = 6GB -> Build and release -> working file
+
+               Backup_login.java_02_03_2025             
+
+      DAY-3: login.java -> 6GB + 10GB = 16GB   -> Build and release -> working file
+
+               Backup_login.java_03_03_2025  
+
+      DAY-4: login.java
+==============================================////////////////////------------------------///////////////////////////////////--------------------
