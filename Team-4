@@ -29,3 +29,41 @@ Testing Phase: Payment page is not working properly, they wanted to remove the c
    * Rollback/Revert/deletion - will impact other features or pages
    * Testing individual page/feature is difficult
    * No re-useability as everything is combined in single branch.
+   ==========================///////////////////////===================////////////////
+   Feature wise branches:
+-----------------------------
+1. login-page: branch(login-feature): login.java - commits
+                                      login-security.java  - commits
+                                      login-password.java - commits
+
+
+2. logout-page: branch(logout-feature): logout.java - commits
+                                      logout-security.java  - commits
+                                      logout-password.java - commits
+
+
+.
+.
+.
+.
+.
+.
+Finally combine all the branches into single branch(ecommerce-website) and then build the software(artifact) to deliver to customer.
+
+----------------------------------------------------------------------------------------------------------------------------
+Standard branches:
+----------------------------------------------------------------------------------------------------------------------------
+1. master/main: master/main is used for keeping the updated source code to release/build the final artifact for delivering/deploying into customer environment.
+                We have single master/main branch.
+
+eg: master or main
+
+2. develop: Develop branch is used for developing the application features.
+                We have single develop branch.
+
+eg: develop
+
+3. release: Release branch is used for maintaining the release/version/customer wise code for software/product/application features.
+            We have multiple release branches.
+
+
